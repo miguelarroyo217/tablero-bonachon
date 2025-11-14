@@ -69,14 +69,14 @@ function toggleParejas() {
     });
 }
 
-// Rotación automática de publicidad
+// Rotación automática de los videos
 let indice = 0;
 const cambioIntervalo = 20000; // 20 segundos
 
 setInterval(() => {
-    const grupos = document.querySelectorAll('.publicidad');
+    const grupos = document.querySelectorAll('.seccion');
     grupos.forEach(grupo => {
-        const items = grupo.querySelectorAll('.publi-item');
+        const items = grupo.querySelectorAll('.media-item');
         items.forEach(i => i.classList.remove('activo'));
 
         const activo = items[indice % items.length];
