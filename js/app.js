@@ -109,8 +109,8 @@ setInterval(() => {
 // ===== TEXTOS PARA ALTERNAR EN MARQUESINAS =====
 const textosInferior = [
     "🏆 Bienvenidos a Sports Club Bonachón",
-    "🎉 Preparaté para la Gran Posada Bonachón",
-    "🔥 Reserva la cancha para tu Cena de Fin de Año",
+    "🎉 Proximamente, Membresías Bonachón",
+    "🔥 Tres Niveles, Experiencia Exclusiva",
     "🎉 Promociones especiales todo el mes"
 ];
 
